@@ -1,0 +1,17 @@
+2022-09-29 14:57:44.143  INFO 4948 --- [restartedMain] c.mostafa.SpringBootLogBackApplication   : Starting SpringBootLogBackApplication using Java 1.8.0_301 on HOAP2406101769A with PID 4948 (D:\Learning\Java\Prectices\SpringBoot-LogBack\target\classes started by golam.mostafa in D:\Learning\Java\Prectices\SpringBoot-LogBack)
+2022-09-29 14:57:44.145  INFO 4948 --- [restartedMain] c.mostafa.SpringBootLogBackApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-09-29 14:57:44.178  INFO 4948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-29 14:57:44.178  INFO 4948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-29 14:57:44.797  INFO 4948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-09-29 14:57:44.803  INFO 4948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-29 14:57:44.803  INFO 4948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-29 14:57:44.847  INFO 4948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-29 14:57:44.847  INFO 4948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 661 ms
+2022-09-29 14:57:45.068  INFO 4948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-29 14:57:45.091  INFO 4948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-09-29 14:57:45.098  INFO 4948 --- [restartedMain] c.mostafa.SpringBootLogBackApplication   : Started SpringBootLogBackApplication in 1.224 seconds (JVM running for 1.999)
+2022-09-29 14:57:53.263  INFO 4948 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-29 14:57:53.263  INFO 4948 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-29 14:57:53.264  INFO 4948 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-29 14:57:53.286 DEBUG 4948 --- [http-nio-9090-exec-1] c.mostafa.controller.WelcomeController   : Request : mostafa
+2022-09-29 14:57:53.286 DEBUG 4948 --- [http-nio-9090-exec-1] c.mostafa.controller.WelcomeController   : Response : Hello mostafa
